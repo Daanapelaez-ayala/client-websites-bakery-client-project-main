@@ -1,9 +1,13 @@
+
+* {
+    background-color: #ce5b1e;
+}
 :root {
-    --primary-color: #Bd632F;
-    --secondary-color: #D8973C;
-    --neutral-color: #D8C998;
-    --neutral-dark:#273E47;
-    --accent-color: #A4243B;
+    --primary-color: #f7eee9;
+    --secondary-color: #b19a7a;
+    --neutral-color: #caa481;
+    --neutral-dark:#304249;
+    --accent-color: #111010;
 }
 .container {
     background-color: var(--neutral-dark);
