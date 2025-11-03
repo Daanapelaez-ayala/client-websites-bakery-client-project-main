@@ -1,29 +1,28 @@
+ .background {
+   font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: #e6d9e4;
+    color: #093026;
+}
 
-* {
-    background-color: #ce5b1e;
+.navbar-brand {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: rgb(4, 37, 25);
 }
-:root {
-    --primary-color: #f7eee9;
-    --secondary-color: #b19a7a;
-    --neutral-color: #caa481;
-    --neutral-dark:#304249;
-    --accent-color: #111010;
+.container-fluid  {
+    background-color: #bec5c3;
+    padding-bottom: 5px;
 }
-.container {
-    background-color: var(--neutral-dark);
-}
-h1, h2 {
-    color: var(--primary-color);
-}
-h3, p {
-    color: var(--secondary-color);
-}
-p {
-    color: var(--neutral-color);
-}
-.circle {
-    width: 100px;
-    height: 100px;
-    background-color: var(--accent-color);
-    border-radius: 50%;
+.welcome {
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    background-color: #a6c8cc;
+    border-radius: 10px;
+    margin: 20px 0;
 }
