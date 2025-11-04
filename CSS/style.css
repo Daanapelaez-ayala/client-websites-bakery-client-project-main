@@ -4,18 +4,24 @@
   font-style: normal;
     background-color: #e6d9e4;
     color: #093026;
+    padding: 0;
 }
-
+.navbar { 
+    padding: 0;
+}
 .navbar-brand {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
     color: rgb(4, 37, 25);
+    float: center;
+
 }
 .container-fluid  {
     background-color: #bec5c3;
     padding-bottom: 5px;
+    float: right;
 }
 .welcome {
     font-family: "Cormorant", serif;
@@ -25,4 +31,7 @@
     background-color: #a6c8cc;
     border-radius: 10px;
     margin: 20px 0;
+}
+.collapse.navbar-collapse {
+    float: right;
 }
