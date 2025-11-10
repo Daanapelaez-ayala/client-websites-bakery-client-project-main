@@ -34,4 +34,5 @@
 }
 .collapse.navbar-collapse {
     float: right;
+    margin-left: 50%;
 }
