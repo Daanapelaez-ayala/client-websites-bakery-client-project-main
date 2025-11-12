@@ -17,29 +17,23 @@
     font-size: 33px;
     color: rgb(4, 37, 25);
     float: center;
-    margin-left: 35%;
-    /* padding: 100px; */
-
+    margin-left: 40%;
+   padding-top: 20px;
 }
 .container-fluid  {
     background-color: #bec5c3;
-    /* padding-bottom: 5px; */
     float: right;
-    /* margin-left: 50%; */
 }
 .welcome {
     font-family: "Cormorant", serif;
     font-weight: 400;
     font-style: normal;
     padding: 20px;
-    font-size: 20px;
-    margin-left: 28%;
+    border-radius: 10px;
+    margin-left: 32%; 
 }
 .collapse.navbar-collapse {
     float: right;
-    margin-left: 30%;
+    margin-left: 32%;
     font-size: 20px;
- 
-
-    
 }
