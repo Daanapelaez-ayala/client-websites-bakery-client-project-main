@@ -1,0 +1,45 @@
+.background {
+   font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: #e6d9e4;
+    color: #093026;
+    padding: 0;
+}
+.navbar { 
+    padding: 0;
+    
+}
+.navbar-brand {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 33px;
+    color: rgb(4, 37, 25);
+    float: center;
+    margin-left: 35%;
+    /* padding: 100px; */
+
+}
+.container-fluid  {
+    background-color: #bec5c3;
+    /* padding-bottom: 5px; */
+    float: right;
+    /* margin-left: 50%; */
+}
+.welcome {
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 28%;
+}
+.collapse.navbar-collapse {
+    float: right;
+    margin-left: 30%;
+    font-size: 20px;
+ 
+
+    
+}
