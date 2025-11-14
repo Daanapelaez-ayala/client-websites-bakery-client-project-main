@@ -1,0 +1,119 @@
+.background {
+    font-family: "Crimson Text", serif;
+   font-weight: 400;
+   font-style: normal;
+     background-color: #e6d9e4;
+     color: #093026;
+     padding: 0;
+ }
+ .navbar { 
+     padding: 0;
+     
+ }
+ .navbar-brand {
+     font-family: "Great Vibes", cursive;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 33px;
+     color: rgb(4, 37, 25);
+     float: center;
+     margin-left: 40%;
+    padding-top: 20px;
+ }
+ .container-fluid  {
+     background-color: #bec5c3;
+     float: right;
+ }
+ .welcome {
+     font-family: "Cormorant", serif;
+     font-weight: 400;
+     font-style: normal;
+     padding: 20px;
+     border-radius: 10px;
+     margin-left: 32%; 
+ }
+ .collapse.navbar-collapse {
+     float: right;
+     margin-left: 32%;
+     font-size: 20px;
+ }
+ 
+
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0 20px;
+}
+
+
+.owners-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.profile-card {
+    background: #bec5c3;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.profile-card h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.profile-card .role {
+    color: #093026;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-grid {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.team-card {
+    background:#bec5c3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #093026;
+}
+
+.team-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.team-card .role {
+    color: #093026;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 32px;
+    }
+}
+
